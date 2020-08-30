@@ -36,7 +36,7 @@ Then, once we know the values for w and a, we can interpolate v for arbitrary po
 
 ### Usage
 ```bash
-$ python3 tps.py --path sample.png
+$ python3 tps.py --img sample.png
 ```
 
 ### References
