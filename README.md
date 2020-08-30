@@ -29,17 +29,17 @@ Then, once we know the values for w and a, we can interpolate v for arbitrary po
   <img src="_images/math-4.gif">
 </p>
 
-### Demo
+## Demo
 <p align="center"> 
   <img src="_images/demo.gif">
 </p>
 
-### Usage
+## Usage
 ```bash
 $ python3 tps.py --img sample.png
 ```
 
-### References
+## References
 - ["Manual Registration with Thin Plates" by Herve Lombaert](https://profs.etsmtl.ca/hlombaert/thinplates/)
 - Bookstein, F.L., 1989. Principal warps: Thin-plate splines and the decomposition of deformations. IEEE Transactions on pattern analysis and machine intelligence, 11(6), pp.567-585.
 - [Thin Plate Splines (TPS) library](https://github.com/mdedonno1337/TPS)
