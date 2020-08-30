@@ -41,5 +41,5 @@ $ python3 tps.py --path sample.png
 
 ### References
 - ["Manual Registration with Thin Plates" by Herve Lombaert](https://profs.etsmtl.ca/hlombaert/thinplates/)
-- Principal Warps: Thin-Plate Splines and the Decomposition of Deformations, F.L. Bookstein, PAMI 1989 (Vol. 11, №6) pp. 567–585
+- Bookstein, F.L., 1989. Principal warps: Thin-plate splines and the decomposition of deformations. IEEE Transactions on pattern analysis and machine intelligence, 11(6), pp.567-585.
 - [Thin Plate Splines (TPS) library](https://github.com/mdedonno1337/TPS)
