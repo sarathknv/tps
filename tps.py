@@ -124,7 +124,7 @@ def _subplots_label_stuff():
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--path', required=True, help='Path to image')
+    parser.add_argument('--img', required=True, help='Path to image')
     parser.add_argument('--shape', required=False, default=(16, 16),
                         help='Resize the image')
     args = parser.parse_args()
@@ -133,7 +133,7 @@ if __name__ == '__main__':
     x, y = 0, 0
     clicked = False  # left mouse button click
 
-    img = cv2.imread(args.path, cv2.IMREAD_GRAYSCALE)
+    img = cv2.imread(args.img, cv2.IMREAD_GRAYSCALE)
     if args.shape:
         img = cv2.resize(img, dsize=args.shape, interpolation=cv2.INTER_CUBIC)
 
